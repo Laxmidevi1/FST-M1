@@ -9,8 +9,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/Features",
         glue = {"stepDefinitions"},
-        tags = "@FirstTest",
+        tags = "@activity3",
         publish = true
+      // plugin = {"html:src/reports/HTML_Report.html"}
 )
 
 
